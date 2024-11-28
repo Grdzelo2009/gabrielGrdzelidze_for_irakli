@@ -90,7 +90,52 @@ result = [ [x**2 for x in combos] for combos in matrix ]
 
 
 
-result = [x**2 for x in [x+5 for x in range(1,6)] ]
+'''result = [x**2 for x in [x+5 for x in range(1,6)] ]
 
 
-print(result)
+print(result)'''
+
+
+'''dict = {
+    "gio" : 1,
+    "nika" : 2,
+    "luka" : 3,
+    "sandro" : 4
+}'''
+
+'''list = [
+    ['ch',1,'playoff1'],
+    ['geo',2,'playoff2'],
+    ['alb',3,'playoff3'],
+    ['uk',4,'playoff4']
+]
+
+dict_transform = {key:(value,place) for key,value,place in list}
+
+print(dict_transform)'''
+
+'''ls = [10,11,12,13]
+
+ite = iter(ls)
+
+print(next(ite)) #გამოიტანა current ელემენტი, ანუ ls[0]
+print(next(ite))
+print(next(ite))
+print(next(ite)) #ბევრჯერ გამოძახებით გამოაქ შემდეგი ელემენტი'''
+
+'''ls = [10,11,12,13]
+
+gen = (x**2 for x in ls)
+
+print(next(gen))
+print(next(gen))
+print(next(gen))
+print(next(gen))'''
+
+
+'''ls = [x for x in range(10000)]
+
+for i in ls:
+    if i>1000:
+        break
+        print(x,end="")'''
